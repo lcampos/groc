@@ -13,7 +13,7 @@
 
   "repository": {
     "type": "git",
-    "url":  "https://github.com/gilt/groc"
+    "url":  "https://github.com/lcampos/groc"
   },
 
   "main": "./index",
@@ -25,19 +25,19 @@
   },
 
   "engines": {
-    "node": ">= v0.4.12"
+    "node": ">= 0.8"
   },
   "dependencies": {
-    "coffee-script": ">= 1.1.3",
-    "colors":        ">= 0.5.1",
-    "fs-tools":      ">= 0.1.0",
-    "glob":          ">= 3.0.1",
-    "jade":          ">= 0.17.0",
-    "optimist":      ">= 0.3.4",
-    "showdown":      ">= 0.2.0",
-    "spate":         ">= 0.1.0",
-    "uglify-js":     ">= 1.1.1",
-    "underscore":    "~1.6.0"
+    "coffee-script": "^1.6.3",
+    "colors":        "^0.6.2",
+    "fs-tools":      "^0.2.10",
+    "glob":          "^3.2.7",
+    "jade":          "^0.2.10",
+    "optimist":      "^0.6.1",
+    "showdown":      "^0.3.1",
+    "spate":         "^0.1.0",
+    "uglify-js":     "^2.4.6",
+    "underscore":    "^1.6.0"
   },
   "devDependencies": {},
 

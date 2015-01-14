@@ -36,6 +36,19 @@ module.exports = LANGUAGES =
     singleLineComment: ['#']
     ignorePrefix:      '}'
 
+  'Force.com Apex':
+    nameMatchers:      ['.trigger', '.cls']
+    pygmentsLexer:     'java'
+    singleLineComment: ['//']
+    multiLineComment:  ['/**', '*', '*/']
+    ignorePrefix:      '}'
+
+  'Force.com Visualforce':
+    nameMatchers:      ['.page', '.component']
+    pygmentsLexer:     'html'
+    multiLineComment:  ['<!--', '', '-->']
+    ignorePrefix:      '}'
+
   Go:
     nameMatchers:      ['.go']
     pygmentsLexer:     'go'
